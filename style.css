@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container2{
+    width:50%;
+    height:auto;
+    box-shadow: 0 0 10px 0 lightgray;
+    margin:50px auto;
+}
+.parent{
+    display: flex;
+}
+
+.head1{
+    color:rgb(185, 185, 185);
+    font-weight: 100;
+    font-size:48px;
+    font-style: italic;
+    text-align: center;
+    line-height: 20px;
+    padding-top:20px;
+}
+.education{
+    width:35%;
+    height:auto;
+    margin-left:40px;
+}
+.other-links{
+    margin-left:-15px;
+    margin-top:-20px;
+    font-size:12px;
+    font-style:italic;
+    letter-spacing: 1.4px;
+}
+.other-links a{
+    text-decoration: underline;
+    color:black;
+    font-weight: light;
+}
+.skills{
+    margin-left:-35px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top:-20px;
+    font-size:12px;
+    font-style:italic;
+    letter-spacing: 1.4px;
+}
+.skills li{
+    padding-left:10px;
+    font-weight:600;
+}
+.clones{
+    margin-left:-20px;
+    list-style: none;
+    margin-top:-20px;
+    font-size:13px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    padding-bottom:20px;
+}
+.clones a{
+    font-style: italic;
+    color:rgb(131, 131, 131);
+}
+.experience{
+    width:55%;
+    margin-left:15px;
+}
+.list-group{
+    font-size:14px;
+}
+.list-group li{
+    margin-top:-10px;
+    margin-bottom:10px;
+}
+.link{
+    color:grey;
+    font-style: italic;
+    font-weight:600;
+}
