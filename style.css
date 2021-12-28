@@ -76,6 +76,15 @@
     margin-top:-10px;
     margin-bottom:10px;
 }
+.title-wrap h5{
+    margin-top:10px;
+}
+#mg{
+    padding-top:15px;
+}
+.extra{
+    margin-top: -35px;
+}
 .link{
     color:grey;
     font-style: italic;
@@ -124,5 +133,29 @@
     }
     #mg{
         padding-top:15px;
+    }
+  }
+  @media screen and (max-width: 1920px) {
+    .container2{
+        width: 50%;
+        margin:100px auto;
+    }
+    .title-wrap{
+        flex-direction: row;
+    }
+    .title-wrap p{
+        height:20px;
+    }
+    .small{
+        width:25%;
+    }
+    .title-wrap h5{
+        margin-top:10px;
+    }
+    #mg{
+        padding-top:15px;
+    }
+    .extra{
+        margin-top: -35px;
     }
   }
